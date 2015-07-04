@@ -13,5 +13,5 @@ Follow me:
 * Facebook: [endika.iglesias](https://facebook.com/endika.iglesias)
 * Blogspot: [Optimizar sin más](http://optimizarsinmas.blogspot.com.es)
 * Linkedin: [endika-iglesias](https://www.linkedin.com/pub/endika-iglesias/31/a7/42)
-* Personal Website: [Endka Iglesias](http://endikaiglesias.com)
+* Personal Website: [Endika Iglesias](http://endikaiglesias.com)
 
