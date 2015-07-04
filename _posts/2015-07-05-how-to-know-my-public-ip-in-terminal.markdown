@@ -40,4 +40,4 @@ For to use this commands you need to install ```curl``` and ```dig``` packages.
 
 For use ```curl``` install ```sudo aptitude install curl```
 
-For use ```dig```  ```sudo aptitude install dnsutils```
+For use ```dig```  install ```sudo aptitude install dnsutils```
