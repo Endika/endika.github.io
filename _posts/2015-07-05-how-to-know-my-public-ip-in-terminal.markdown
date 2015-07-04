@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to know my public IP in terminal"
-date: 2015-07-04 01:00:00
+date: 2015-07-04 14:00:00
 categories: command terminal linux ip
 ---
 Hi everybody, today i share a simple list for get your public IP in linux command line.
