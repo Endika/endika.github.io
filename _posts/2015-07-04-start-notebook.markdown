@@ -6,7 +6,7 @@ categories: en about
 ---
 Hi everyone, this is my personal notebook.
 
-Followme:
+Follow me:
 
 * Twitter: [@endika_iglesias](https://twitter.com/endika_iglesias)
 * Github: [Endika](https://github.com/Endika)
