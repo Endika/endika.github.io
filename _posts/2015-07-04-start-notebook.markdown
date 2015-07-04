@@ -5,6 +5,8 @@ date: 2015-07-04 01:00:00
 categories: about
 ---
 Hi everyone, this is my personal notebook.
+Is my new project to collect cheat sheets.
+Normally the content to this website is fork to my personal blog [Optimizar sin más](http://optimizarsinmas.blogspot.com.es)
 
 Follow me:
 
