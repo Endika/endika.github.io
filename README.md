@@ -1,5 +1,3 @@
-# sudo-jekyll
+# endika.github.io
 
-Very minimal Jekyll theme for personal blogs
-
-![Peview](preview.png "Preview")
+Mi personal notebook
