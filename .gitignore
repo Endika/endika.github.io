@@ -1,2 +1,12 @@
-_site/
-.sass-cache/
+# build output
+dist/
+.astro/
+# deps
+node_modules/
+# logs / env / os
+*.log
+.env
+.env.*
+.DS_Store
+# brainstorm artifacts (not project code)
+.superpowers/
