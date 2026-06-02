@@ -1,0 +1,13 @@
+---
+---
+<button class="toggle" type="button" data-theme-toggle aria-label="Toggle color theme">
+  <span class="t-light">☀</span><span class="t-dark">☾</span><span class="t-auto">auto</span>
+</button>
+
+<style>
+  [data-theme-toggle] span { display: none; }
+  [data-theme-toggle][data-state="light"] .t-light,
+  [data-theme-toggle][data-state="dark"] .t-dark,
+  [data-theme-toggle][data-state="auto"] .t-auto { display: inline; }
+  [data-theme-toggle]:not([data-state]) .t-auto { display: inline; }
+</style>

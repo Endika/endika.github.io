@@ -1,0 +1,47 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <title>{title}</title>
+    <script is:inline>
+      (() => {
+        const pref = (() => {
+          const v = localStorage.getItem('theme-pref');
+          return v === 'light' || v === 'dark' || v === 'auto' ? v : 'auto';
+        })();
+        const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const root = document.documentElement;
+        root.dataset.themePref = pref;
+        root.dataset.theme = pref === 'auto' ? (systemDark ? 'dark' : 'light') : pref;
+        const lang = (() => {
+          const v = localStorage.getItem('lang');
+          return v === 'en' || v === 'es' ? v : 'en';
+        })();
+        root.lang = lang;
+        root.dataset.lang = lang;
+      })();
+    </script>
+  </head>
+  <body>
+    <main class="wrap">
+      <slot />
+    </main>
+    <script>
+      import '../scripts/client.ts';
+    </script>
+  </body>
+</html>

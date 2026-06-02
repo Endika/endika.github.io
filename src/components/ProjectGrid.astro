@@ -1,0 +1,18 @@
+---
+import type { CategoryGroup } from "../lib/projects";
+import ProjectCard from "./ProjectCard.astro";
+
+interface Props {
+  groups: CategoryGroup[];
+}
+
+const { groups } = Astro.props;
+---
+{groups.map((group) => (
+  <>
+    <h2 class="cat">{`// ${group.category}`} <span class="count">· {group.projects.length}</span></h2>
+    <div class="grid">
+      {group.projects.map((project) => <ProjectCard project={project} />)}
+    </div>
+  </>
+))}

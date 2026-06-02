@@ -1,0 +1,17 @@
+---
+import Footer from "../components/Footer.astro";
+import Hero from "../components/Hero.astro";
+import ProjectGrid from "../components/ProjectGrid.astro";
+import TopBar from "../components/TopBar.astro";
+import { categoryOrder, projects } from "../data/projects";
+import Base from "../layouts/Base.astro";
+import { groupByCategory } from "../lib/projects";
+
+const groups = groupByCategory(projects, categoryOrder);
+---
+<Base title="Endika Iglesias — developer" description="Endika Iglesias — developer & indie maker. Projects, apps and experiments.">
+  <TopBar />
+  <Hero />
+  <ProjectGrid groups={groups} />
+  <Footer />
+</Base>
