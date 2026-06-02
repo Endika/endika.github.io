@@ -1,0 +1,28 @@
+---
+import { initialIcon } from "../lib/icon";
+import type { Project } from "../lib/projects";
+
+interface Props {
+  project: Project;
+}
+
+const { project } = Astro.props;
+const icon = initialIcon(project);
+const statusLabel = project.type === "live" ? "● live →" : "● repo →";
+---
+<a class="card" href={project.url} data-type={project.type} rel="noopener">
+  <div class="head">
+    <span class="icon">
+      {icon.kind === 'favicon' && (
+        <img src={icon.value} alt="" width="18" height="18" loading="lazy" data-favicon />
+      )}
+      <span data-emoji style={icon.kind === 'favicon' ? 'display:none' : ''}>{project.emoji}</span>
+    </span>
+    <span class="title">{project.name}</span>
+  </div>
+  <p class="desc" data-en={project.desc.en} data-es={project.desc.es}>{project.desc.en}</p>
+  <div class="meta">
+    <span class="chip">{project.tag}</span>
+    <span class="status">{statusLabel}</span>
+  </div>
+</a>

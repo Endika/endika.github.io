@@ -1,0 +1,12 @@
+---
+import { site } from "../data/site";
+import LangToggle from "./LangToggle.astro";
+import ThemeToggle from "./ThemeToggle.astro";
+---
+<header class="topbar">
+  <span class="prompt">{site.promptLabel}</span>
+  <div class="controls">
+    <LangToggle />
+    <ThemeToggle />
+  </div>
+</header>

@@ -1,0 +1,12 @@
+---
+---
+<button class="toggle" type="button" data-lang-toggle aria-label="Toggle language">
+  <span class="l-en">EN</span><span class="l-es">ES</span>
+</button>
+
+<style>
+  [data-lang-toggle] span { display: none; }
+  [data-lang-toggle][data-state="en"] .l-en,
+  [data-lang-toggle][data-state="es"] .l-es { display: inline; }
+  [data-lang-toggle]:not([data-state]) .l-en { display: inline; }
+</style>
