@@ -214,6 +214,18 @@ export const projects: Project[] = [
     category: "experiments",
   },
   {
+    name: "eskills",
+    emoji: "🧰",
+    desc: {
+      en: "My lean Claude Code skills pack: coding conventions, an end-to-end task flow and quality lenses, riding superpowers.",
+      es: "Mi pack lean de skills para Claude Code: convenciones, un flujo de tarea integral y lentes de calidad, sobre superpowers.",
+    },
+    url: "https://github.com/Endika/eskills",
+    type: "repo",
+    tag: "tool",
+    category: "experiments",
+  },
+  {
     name: "Genome Report",
     emoji: "🧬",
     desc: {
