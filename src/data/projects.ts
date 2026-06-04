@@ -4,6 +4,19 @@ export const categoryOrder = ["web apps", "flipper zero", "experiments"];
 
 export const projects: Project[] = [
   {
+    name: "Tutu",
+    emoji: "🚗",
+    icon: "https://endika.github.io/tutu/favicon.svg",
+    desc: {
+      en: "Offline 3D car-sliding puzzle for kids: slide the toy cars to free the red one. Endless rising difficulty, 6 languages.",
+      es: "Puzle 3D offline de coches deslizantes para niños: desliza los coches de juguete para liberar el rojo. Dificultad creciente sin fin, 6 idiomas.",
+    },
+    url: "https://endika.github.io/tutu/",
+    type: "live",
+    tag: "PWA",
+    category: "web apps",
+  },
+  {
     name: "EventSplit",
     emoji: "🧾",
     icon: "https://endika.github.io/EventSplit/favicon.ico",
