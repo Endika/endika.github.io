@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { type Project, groupByCategory } from "../src/lib/projects";
+import { groupByCategory, type Project } from "../src/lib/projects";
 
 const p = (name: string, category: string): Project => ({
   name,
