@@ -4,6 +4,19 @@ export const categoryOrder = ["web apps", "flipper zero", "experiments"];
 
 export const projects: Project[] = [
   {
+    name: "Ekin",
+    emoji: "💪",
+    icon: "https://endika.github.io/ekin/favicon.svg",
+    desc: {
+      en: "Offline bodyweight home-workout PWA: build or auto-fill routines, follow guided sessions and track your progress.",
+      es: "PWA offline de entrenos en casa con tu peso corporal: crea o autorrellena rutinas, sigue sesiones guiadas y registra tu progreso.",
+    },
+    url: "https://endika.github.io/ekin/",
+    type: "live",
+    tag: "PWA",
+    category: "web apps",
+  },
+  {
     name: "Tutu",
     emoji: "🚗",
     icon: "https://endika.github.io/tutu/favicon.svg",
