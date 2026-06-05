@@ -1,6 +1,6 @@
 import { resolveLang } from "../lib/i18n";
-import { isThemePref, nextPref, resolveTheme } from "../lib/theme";
 import type { ThemePref } from "../lib/theme";
+import { isThemePref, nextPref, resolveTheme } from "../lib/theme";
 
 const THEME_KEY = "theme-pref";
 const LANG_KEY = "lang";
