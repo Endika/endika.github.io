@@ -107,6 +107,18 @@ export const projects: Project[] = [
     category: "web apps",
   },
   {
+    name: "Tutu",
+    emoji: "🚗",
+    desc: {
+      en: "Sliding car puzzle (Rush Hour) for Flipper Zero: 100 levels of rising difficulty — slide the cars to free the red one.",
+      es: "Puzle de coches deslizantes (Rush Hour) para Flipper Zero: 100 niveles de dificultad creciente; desliza los coches para liberar el rojo.",
+    },
+    url: "https://github.com/Endika/flipper-tutu",
+    type: "repo",
+    tag: "Flipper",
+    category: "flipper zero",
+  },
+  {
     name: "HyperFocus Calc",
     emoji: "📷",
     desc: {
