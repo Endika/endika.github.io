@@ -107,6 +107,19 @@ export const projects: Project[] = [
     category: "web apps",
   },
   {
+    name: "Impostor",
+    emoji: "🎭",
+    icon: "https://endika.github.io/Impostor/favicon.svg",
+    desc: {
+      en: "Offline pass-the-phone party game: everyone shares a secret word except the impostors — give clues, vote and unmask them. 6 languages, no login.",
+      es: "Juego de fiesta offline para pasar el móvil: todo el mundo comparte una palabra secreta menos los impostores; da pistas, vota y descúbrelos. 6 idiomas, sin registro.",
+    },
+    url: "https://endika.github.io/Impostor/",
+    type: "live",
+    tag: "PWA",
+    category: "web apps",
+  },
+  {
     name: "Tutu",
     emoji: "🚗",
     desc: {
