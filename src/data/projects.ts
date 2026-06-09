@@ -81,6 +81,19 @@ export const projects: Project[] = [
     category: "web apps",
   },
   {
+    name: "Lasai",
+    emoji: "🧘",
+    icon: "https://endika.github.io/Lasai/favicon.ico",
+    desc: {
+      en: "Free, offline, ad-free PWA to calm down and breathe for a few minutes: guided breathing, a private stress check-in and history. Everything stays on your device.",
+      es: "PWA gratuita, offline y sin anuncios para calmarte y respirar unos minutos: respiración guiada, chequeo de estrés privado e historial. Todo se queda en tu dispositivo.",
+    },
+    url: "https://endika.github.io/Lasai/",
+    type: "live",
+    tag: "PWA",
+    category: "web apps",
+  },
+  {
     name: "Kartaak",
     emoji: "🃏",
     icon: "https://endika.github.io/kartaak/favicon.svg",
