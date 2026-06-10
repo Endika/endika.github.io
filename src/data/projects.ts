@@ -133,6 +133,19 @@ export const projects: Project[] = [
     category: "web apps",
   },
   {
+    name: "Zuhaitz",
+    emoji: "🌳",
+    icon: "https://endika.github.io/zuhaitz/icon-192.png",
+    desc: {
+      en: "Offline PWA to identify trees in Spain with an adaptive, no-jargon question key — 174 species with hand-drawn sketches. No login.",
+      es: "PWA offline para identificar árboles de España con una clave adaptativa y sin tecnicismos: 174 especies con dibujos a mano. Sin registro.",
+    },
+    url: "https://endika.github.io/zuhaitz/",
+    type: "live",
+    tag: "PWA",
+    category: "web apps",
+  },
+  {
     name: "Tutu",
     emoji: "🚗",
     desc: {
