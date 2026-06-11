@@ -4,6 +4,19 @@ export const categoryOrder = ["web apps", "flipper zero", "experiments"];
 
 export const projects: Project[] = [
   {
+    name: "Doinu",
+    emoji: "🎹",
+    icon: "https://endika.github.io/doinu/favicon.svg",
+    desc: {
+      en: "Offline piano-learning PWA: falling-notes practice, a step-by-step path, scales & songs, and record your own melodies. Play by MIDI or microphone.",
+      es: "PWA offline para aprender piano: práctica con notas que caen, un camino paso a paso, escalas y canciones, y graba tus propias melodías. Toca por MIDI o micrófono.",
+    },
+    url: "https://endika.github.io/doinu/",
+    type: "live",
+    tag: "PWA",
+    category: "web apps",
+  },
+  {
     name: "Ekin",
     emoji: "💪",
     icon: "https://endika.github.io/ekin/favicon.svg",
