@@ -15,7 +15,7 @@
     "format": "biome format --write ."
   },
   "dependencies": {
-    "astro": "^6.4.4"
+    "astro": "^6.4.7"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.0",
