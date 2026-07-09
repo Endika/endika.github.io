@@ -4,6 +4,19 @@ export const categoryOrder = ["web apps", "flipper zero", "experiments"];
 
 export const projects: Project[] = [
   {
+    name: "Gurpil",
+    emoji: "🛞",
+    icon: "https://endika.github.io/gurpil/icon-192.png",
+    desc: {
+      en: "Offline arcade racer with a twist: draw your wheel's shape mid-race and let real physics decide. Themed biomes, a 15-level campaign and an endless mode.",
+      es: "Juego de carreras offline con truco: dibuja la forma de la rueda a mitad de carrera y deja que la física real decida. Biomas temáticos, campaña de 15 niveles y modo sin fin.",
+    },
+    url: "https://endika.github.io/gurpil/",
+    type: "live",
+    tag: "PWA",
+    category: "web apps",
+  },
+  {
     name: "Doinu",
     emoji: "🎹",
     icon: "https://endika.github.io/doinu/favicon.svg",
