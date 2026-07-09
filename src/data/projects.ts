@@ -172,6 +172,18 @@ export const projects: Project[] = [
     category: "web apps",
   },
   {
+    name: "Gurpil",
+    emoji: "🛞",
+    desc: {
+      en: "Endless side-scroller for Flipper Zero: switch your wheel shape on the fly to match the terrain and roll as far as you can.",
+      es: "Endless para Flipper Zero: cambia la forma de la rueda al vuelo para adaptarte al terreno y llega lo más lejos posible.",
+    },
+    url: "https://github.com/Endika/flipper-gurpil",
+    type: "repo",
+    tag: "Flipper",
+    category: "flipper zero",
+  },
+  {
     name: "Tutu",
     emoji: "🚗",
     desc: {
