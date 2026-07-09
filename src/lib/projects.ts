@@ -24,6 +24,11 @@ export function groupByCategory(projects: Project[], order: string[]): CategoryG
     byCategory.set(project.category, list);
   }
 
+  // Sort each category's projects alphabetically by name (case-insensitive).
+  for (const list of byCategory.values()) {
+    list.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: "base" }));
+  }
+
   const groups: CategoryGroup[] = [];
   const seen = new Set<string>();
   for (const category of order) {
