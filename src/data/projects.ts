@@ -4,6 +4,19 @@ export const categoryOrder = ["web apps", "flipper zero", "experiments"];
 
 export const projects: Project[] = [
   {
+    name: "Erregai",
+    emoji: "⛽",
+    icon: "https://endika.github.io/erregai/favicon.svg",
+    desc: {
+      en: "Offline PWA that finds the nearest Spanish fuel stations with live prices — cheapest-first, colour-cued, on a list and map. Trip mode follows your route and alerts you to the cheapest station ahead. 6 languages.",
+      es: "PWA offline que encuentra las gasolineras más cercanas de España con precios reales — de más barata a más cara, con colores, en lista y mapa. El modo viaje sigue tu ruta y te avisa de la más barata por delante. 6 idiomas.",
+    },
+    url: "https://endika.github.io/erregai/",
+    type: "live",
+    tag: "PWA",
+    category: "web apps",
+  },
+  {
     name: "Gurpil",
     emoji: "🛞",
     icon: "https://endika.github.io/gurpil/icon-192.png",
