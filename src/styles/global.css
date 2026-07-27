@@ -13,6 +13,8 @@ html[data-theme="light"] {
   --repo-accent: #8a8a8a;
   --chip-bg: #e7e4da;
   --rule: #cfcabb;
+  --state-merged: #6f42c1;
+  --state-closed: #cf222e;
 }
 
 /* Dark theme */
@@ -26,6 +28,8 @@ html[data-theme="dark"] {
   --repo-accent: #5a6b5f;
   --chip-bg: #1d2620;
   --rule: #2a342d;
+  --state-merged: #a371f7;
+  --state-closed: #f85149;
 }
 
 * {
@@ -197,6 +201,18 @@ body {
 }
 .card[data-type="repo"] .status {
   color: var(--repo-accent);
+}
+.card[data-state="merged"] {
+  border-left-color: var(--state-merged);
+}
+.card[data-state="merged"] .status {
+  color: var(--state-merged);
+}
+.card[data-state="closed"] {
+  border-left-color: var(--state-closed);
+}
+.card[data-state="closed"] .status {
+  color: var(--state-closed);
 }
 
 /* Footer */
