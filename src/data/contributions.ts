@@ -24,6 +24,17 @@ export const contributions: Contribution[] = [
     state: "open",
   },
   {
+    repo: "traefik/yaegi",
+    emoji: "🐹",
+    stars: 8300,
+    pr: 1729,
+    desc: {
+      en: "A constant condition in an if or for statement crashed the interpreter instead of reporting a compile error, taking down any program embedding it.",
+      es: "Una condición constante en un if o un for tumbaba el intérprete en lugar de reportar un error de compilación, y se llevaba por delante al programa que lo incrusta.",
+    },
+    state: "open",
+  },
+  {
     repo: "tobymao/sqlglot",
     emoji: "🧩",
     stars: 8000,
