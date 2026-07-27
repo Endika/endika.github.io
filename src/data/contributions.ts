@@ -43,7 +43,7 @@ export const contributions: Contribution[] = [
       en: "Instancing a variable font left the BASE table untouched, so instances kept the default baselines and a dangling variation store.",
       es: "Al instanciar una fuente variable la tabla BASE quedaba intacta, así que las instancias conservaban las líneas base por defecto y un almacén de variaciones huérfano.",
     },
-    state: "open",
+    state: "merged",
   },
   {
     repo: "MatthewKuKanich/FindMyFlipper",
