@@ -1,8 +1,10 @@
 ---
+import ContributionList from "../components/ContributionList.astro";
 import Footer from "../components/Footer.astro";
 import Hero from "../components/Hero.astro";
 import ProjectGrid from "../components/ProjectGrid.astro";
 import TopBar from "../components/TopBar.astro";
+import { contributions } from "../data/contributions";
 import { categoryOrder, projects } from "../data/projects";
 import Base from "../layouts/Base.astro";
 import { groupByCategory } from "../lib/projects";
@@ -13,5 +15,6 @@ const groups = groupByCategory(projects, categoryOrder);
   <TopBar />
   <Hero />
   <ProjectGrid groups={groups} />
+  <ContributionList contributions={contributions} />
   <Footer />
 </Base>

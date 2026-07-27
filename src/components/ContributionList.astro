@@ -1,0 +1,26 @@
+---
+import type { Contribution } from "../lib/contributions";
+import { formatStars, pullRequestUrl, sortContributions } from "../lib/contributions";
+
+interface Props {
+  contributions: Contribution[];
+}
+
+const items = sortContributions(Astro.props.contributions);
+---
+<h2 class="cat">{"// open source"} <span class="count">· {items.length}</span></h2>
+<div class="grid">
+  {items.map((item) => (
+    <a class="card" href={pullRequestUrl(item)} data-state={item.state} rel="noopener">
+      <div class="head">
+        <span class="icon">{item.emoji}</span>
+        <span class="title">{item.repo}</span>
+      </div>
+      <p class="desc" data-en={item.desc.en} data-es={item.desc.es}>{item.desc.en}</p>
+      <div class="meta">
+        <span class="chip">{formatStars(item.stars)}★</span>
+        <span class="status">#{item.pr} · {item.state}</span>
+      </div>
+    </a>
+  ))}
+</div>
