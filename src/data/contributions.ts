@@ -4,7 +4,7 @@ export const contributions: Contribution[] = [
   {
     repo: "DarkFlippers/unleashed-firmware",
     emoji: "🔓",
-    stars: 21921,
+    stars: 21920,
     pr: 1048,
     desc: {
       en: "The EMV parser took each TLV length straight off the card, so tapping a crafted card wrote past several fixed-size fields and a stack buffer.",
@@ -15,13 +15,13 @@ export const contributions: Contribution[] = [
   {
     repo: "DarkFlippers/unleashed-firmware",
     emoji: "🔓",
-    stars: 21921,
+    stars: 21920,
     pr: 1049,
     desc: {
-      en: "A reader writing to the emulated NFC tag at offset 1 shifted the stored payload by a byte and read one byte past the end of its own command.",
-      es: "Un lector que escribía en el tag NFC emulado en offset 1 desplazaba un byte el contenido guardado y leía un byte más allá del final de su propio comando.",
+      en: "A reader writing to the emulated NFC tag at offset 1 shifted the stored payload by a byte and spliced in a stale byte from the previous frame.",
+      es: "Un lector que escribía en el tag NFC emulado en offset 1 desplazaba un byte el contenido guardado y leía un byte de la trama anterior.",
     },
-    state: "open",
+    state: "merged",
   },
   {
     repo: "Next-Flip/Momentum-Firmware",
@@ -103,7 +103,7 @@ export const contributions: Contribution[] = [
   {
     repo: "fonttools/fonttools",
     emoji: "🔠",
-    stars: 5182,
+    stars: 5180,
     pr: 4137,
     desc: {
       en: "Instancing a variable font left the BASE table untouched, so instances kept the default baselines and a dangling variation store.",
