@@ -24,6 +24,28 @@ export const contributions: Contribution[] = [
     state: "open",
   },
   {
+    repo: "Next-Flip/Momentum-Firmware",
+    emoji: "⚡",
+    stars: 8941,
+    pr: 573,
+    desc: {
+      en: "The same unbounded EMV lengths as the unleashed fix, except here the stack overflow is not compiled out of the release builds the project ships.",
+      es: "Las mismas longitudes EMV sin acotar que en el fix de unleashed, salvo que aquí el desbordamiento de pila no se compila fuera de los builds release que distribuye el proyecto.",
+    },
+    state: "open",
+  },
+  {
+    repo: "Next-Flip/Momentum-Firmware",
+    emoji: "⚡",
+    stars: 8941,
+    pr: 574,
+    desc: {
+      en: "The Type 4 Tag write fix, ported to the byte-identical copy of the file this firmware carries.",
+      es: "El fix de escritura en Type 4 Tag, portado a la copia byte a byte idéntica del fichero que lleva este firmware.",
+    },
+    state: "open",
+  },
+  {
     repo: "vitessio/vitess",
     emoji: "🐬",
     stars: 21171,
