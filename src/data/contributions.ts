@@ -2,6 +2,17 @@ import type { Contribution } from "../lib/contributions";
 
 export const contributions: Contribution[] = [
   {
+    repo: "DarkFlippers/unleashed-firmware",
+    emoji: "🔓",
+    stars: 21921,
+    pr: 1048,
+    desc: {
+      en: "The EMV parser took each TLV length straight off the card, so tapping a crafted card wrote past several fixed-size fields and a stack buffer.",
+      es: "El parser EMV tomaba la longitud de cada TLV directamente de la tarjeta, así que acercar una tarjeta manipulada escribía más allá de varios campos de tamaño fijo y de un buffer de pila.",
+    },
+    state: "open",
+  },
+  {
     repo: "vitessio/vitess",
     emoji: "🐬",
     stars: 21171,
@@ -54,7 +65,7 @@ export const contributions: Contribution[] = [
       en: "DuckDB was modelled as returning NULL on division by zero, but it follows IEEE 754 and returns inf, so transpiled queries diverged.",
       es: "DuckDB estaba modelado como si devolviera NULL al dividir por cero, pero sigue IEEE 754 y devuelve inf, así que las consultas transpiladas divergían.",
     },
-    state: "open",
+    state: "merged",
   },
   {
     repo: "fonttools/fonttools",
