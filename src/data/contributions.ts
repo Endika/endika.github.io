@@ -13,6 +13,17 @@ export const contributions: Contribution[] = [
     state: "open",
   },
   {
+    repo: "DarkFlippers/unleashed-firmware",
+    emoji: "🔓",
+    stars: 21921,
+    pr: 1049,
+    desc: {
+      en: "A reader writing to the emulated NFC tag at offset 1 shifted the stored payload by a byte and read one byte past the end of its own command.",
+      es: "Un lector que escribía en el tag NFC emulado en offset 1 desplazaba un byte el contenido guardado y leía un byte más allá del final de su propio comando.",
+    },
+    state: "open",
+  },
+  {
     repo: "vitessio/vitess",
     emoji: "🐬",
     stars: 21171,
