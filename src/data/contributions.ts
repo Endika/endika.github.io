@@ -4,7 +4,7 @@ export const contributions: Contribution[] = [
   {
     repo: "vitessio/vitess",
     emoji: "🐬",
-    stars: 21000,
+    stars: 21171,
     pr: 20700,
     desc: {
       en: "A sharded query with EXISTS inside a CASE silently dropped half of its WHERE clause and returned the wrong rows.",
@@ -15,7 +15,7 @@ export const contributions: Contribution[] = [
   {
     repo: "vitessio/vitess",
     emoji: "🐬",
-    stars: 21000,
+    stars: 21171,
     pr: 20701,
     desc: {
       en: "An outer join against a reference table returned every preserved row once per shard instead of once.",
@@ -26,7 +26,7 @@ export const contributions: Contribution[] = [
   {
     repo: "traefik/yaegi",
     emoji: "🐹",
-    stars: 8300,
+    stars: 8342,
     pr: 1729,
     desc: {
       en: "A constant condition in an if or for statement crashed the interpreter instead of reporting a compile error, taking down any program embedding it.",
@@ -35,9 +35,20 @@ export const contributions: Contribution[] = [
     state: "open",
   },
   {
+    repo: "traefik/yaegi",
+    emoji: "🐹",
+    stars: 8342,
+    pr: 1730,
+    desc: {
+      en: "Using a package name as a value crashed the interpreter five different ways, and inside a return statement it raised no error at all and ran.",
+      es: "Usar el nombre de un paquete como valor tumbaba el intérprete de cinco formas distintas, y dentro de un return no daba ningún error y se ejecutaba.",
+    },
+    state: "open",
+  },
+  {
     repo: "tobymao/sqlglot",
     emoji: "🧩",
-    stars: 8000,
+    stars: 9469,
     pr: 7969,
     desc: {
       en: "DuckDB was modelled as returning NULL on division by zero, but it follows IEEE 754 and returns inf, so transpiled queries diverged.",
@@ -48,7 +59,7 @@ export const contributions: Contribution[] = [
   {
     repo: "fonttools/fonttools",
     emoji: "🔠",
-    stars: 4600,
+    stars: 5182,
     pr: 4137,
     desc: {
       en: "Instancing a variable font left the BASE table untouched, so instances kept the default baselines and a dangling variation store.",
