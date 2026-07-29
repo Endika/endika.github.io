@@ -122,4 +122,15 @@ export const contributions: Contribution[] = [
     },
     state: "open",
   },
+  {
+    repo: "chearon/dropflow",
+    emoji: "📐",
+    stars: 1366,
+    pr: 34,
+    desc: {
+      en: "A box with position: absolute stayed in normal flow and ignored its insets entirely, the last piece of CSS 2.1 positioning the engine was missing.",
+      es: "Una caja con position: absolute se quedaba en el flujo normal e ignoraba del todo sus insets, la última pieza del posicionamiento de CSS 2.1 que le faltaba al motor.",
+    },
+    state: "open",
+  },
 ];
