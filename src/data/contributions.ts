@@ -133,4 +133,15 @@ export const contributions: Contribution[] = [
     },
     state: "open",
   },
+  {
+    repo: "docker/compose",
+    emoji: "🐳",
+    stars: 37888,
+    pr: 13992,
+    desc: {
+      en: "A single directory the user cannot read made compose watch fail to start, so nothing was watched at all: the ignore list is applied to events, never to the walk that registers the watches.",
+      es: "Un solo directorio que el usuario no puede leer impedía que compose watch arrancara, así que no se vigilaba nada: la lista de ignorados se aplica a los eventos, nunca al recorrido que registra los vigilantes.",
+    },
+    state: "open",
+  },
 ];
