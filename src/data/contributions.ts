@@ -177,4 +177,15 @@ export const contributions: Contribution[] = [
     },
     state: "open",
   },
+  {
+    repo: "pact-foundation/pact-reference",
+    emoji: "🦀",
+    stars: 104,
+    pr: 547,
+    desc: {
+      en: "A V4 message whose contents were written without the expected envelope was read as having no body at all, so the interaction verified successfully whatever the provider produced.",
+      es: "Un mensaje V4 cuyo contents se escribía sin el envoltorio esperado se leía como si no tuviera cuerpo, así que la interacción verificaba correctamente sin importar lo que produjera el provider.",
+    },
+    state: "open",
+  },
 ];
