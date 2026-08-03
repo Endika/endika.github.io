@@ -144,4 +144,26 @@ export const contributions: Contribution[] = [
     },
     state: "open",
   },
+  {
+    repo: "python/mypy",
+    emoji: "🏷️",
+    stars: 20570,
+    pr: 21805,
+    desc: {
+      en: "A walrus nested inside a condition, as in if cond and (woo := 5) + n, left the variable optional in the branch where the assignment had certainly run.",
+      es: "Un walrus anidado dentro de una condición, como en if cond and (woo := 5) + n, dejaba la variable opcional en la rama donde la asignación se había ejecutado con seguridad.",
+    },
+    state: "open",
+  },
+  {
+    repo: "pact-foundation/pact-python",
+    emoji: "🤝",
+    stars: 677,
+    pr: 1669,
+    desc: {
+      en: "Any exception in a message handler surfaced as error sending request for url: the 200 response line was sent before the handler ran, so the dropped connection looked like a network fault.",
+      es: "Cualquier excepción en un handler de mensajes aparecía como error sending request for url: la línea de respuesta 200 se enviaba antes de ejecutar el handler, así que la conexión cortada parecía un fallo de red.",
+    },
+    state: "open",
+  },
 ];
