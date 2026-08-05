@@ -4,7 +4,7 @@ export const contributions: Contribution[] = [
   {
     repo: "DarkFlippers/unleashed-firmware",
     emoji: "🔓",
-    stars: 21983,
+    stars: 21998,
     pr: 1048,
     desc: {
       en: "The EMV parser took each TLV length straight off the card, so tapping a crafted card wrote past several fixed-size fields and a stack buffer.",
@@ -15,7 +15,7 @@ export const contributions: Contribution[] = [
   {
     repo: "DarkFlippers/unleashed-firmware",
     emoji: "🔓",
-    stars: 21983,
+    stars: 21998,
     pr: 1049,
     desc: {
       en: "A reader writing to the emulated NFC tag at offset 1 shifted the stored payload by a byte and spliced in a stale byte from the previous frame.",
@@ -26,7 +26,7 @@ export const contributions: Contribution[] = [
   {
     repo: "Next-Flip/Momentum-Firmware",
     emoji: "⚡",
-    stars: 8971,
+    stars: 8985,
     pr: 573,
     desc: {
       en: "The same unbounded EMV lengths as the unleashed fix, except here the stack overflow is not compiled out of the release builds the project ships.",
@@ -37,7 +37,7 @@ export const contributions: Contribution[] = [
   {
     repo: "Next-Flip/Momentum-Firmware",
     emoji: "⚡",
-    stars: 8971,
+    stars: 8985,
     pr: 574,
     desc: {
       en: "The Type 4 Tag write fix, ported to the byte-identical copy of the file this firmware carries.",
@@ -48,7 +48,7 @@ export const contributions: Contribution[] = [
   {
     repo: "vitessio/vitess",
     emoji: "🐬",
-    stars: 21185,
+    stars: 21200,
     pr: 20700,
     desc: {
       en: "A sharded query with EXISTS inside a CASE silently dropped half of its WHERE clause and returned the wrong rows.",
@@ -59,7 +59,7 @@ export const contributions: Contribution[] = [
   {
     repo: "vitessio/vitess",
     emoji: "🐬",
-    stars: 21185,
+    stars: 21200,
     pr: 20701,
     desc: {
       en: "An outer join against a reference table returned every preserved row once per shard instead of once.",
@@ -70,7 +70,7 @@ export const contributions: Contribution[] = [
   {
     repo: "traefik/yaegi",
     emoji: "🐹",
-    stars: 8354,
+    stars: 8353,
     pr: 1729,
     desc: {
       en: "A constant condition in an if or for statement crashed the interpreter instead of reporting a compile error, taking down any program embedding it.",
@@ -81,7 +81,7 @@ export const contributions: Contribution[] = [
   {
     repo: "traefik/yaegi",
     emoji: "🐹",
-    stars: 8354,
+    stars: 8353,
     pr: 1730,
     desc: {
       en: "Using a package name as a value crashed the interpreter five different ways, and inside a return statement it raised no error at all and ran.",
@@ -92,7 +92,7 @@ export const contributions: Contribution[] = [
   {
     repo: "tobymao/sqlglot",
     emoji: "🧩",
-    stars: 9490,
+    stars: 9496,
     pr: 7969,
     desc: {
       en: "DuckDB was modelled as returning NULL on division by zero, but it follows IEEE 754 and returns inf, so transpiled queries diverged.",
@@ -103,7 +103,7 @@ export const contributions: Contribution[] = [
   {
     repo: "fonttools/fonttools",
     emoji: "🔠",
-    stars: 5185,
+    stars: 5189,
     pr: 4137,
     desc: {
       en: "Instancing a variable font left the BASE table untouched, so instances kept the default baselines and a dangling variation store.",
@@ -114,7 +114,7 @@ export const contributions: Contribution[] = [
   {
     repo: "MatthewKuKanich/FindMyFlipper",
     emoji: "📍",
-    stars: 2176,
+    stars: 2177,
     pr: 144,
     desc: {
       en: "An infinite 2FA loop blocked report fetching: the anisette device identity was partly overwritten with random UUIDs. Behind seven reported issues.",
@@ -136,7 +136,7 @@ export const contributions: Contribution[] = [
   {
     repo: "docker/compose",
     emoji: "🐳",
-    stars: 37951,
+    stars: 37977,
     pr: 13992,
     desc: {
       en: "A single directory the user cannot read made compose watch fail to start, so nothing was watched at all: the ignore list is applied to events, never to the walk that registers the watches.",
@@ -147,7 +147,7 @@ export const contributions: Contribution[] = [
   {
     repo: "python/mypy",
     emoji: "🏷️",
-    stars: 20571,
+    stars: 20578,
     pr: 21805,
     desc: {
       en: "A walrus nested inside a condition, as in if cond and (woo := 5) + n, left the variable optional in the branch where the assignment had certainly run.",
@@ -169,7 +169,7 @@ export const contributions: Contribution[] = [
   {
     repo: "python/mypy",
     emoji: "🏷️",
-    stars: 20571,
+    stars: 20578,
     pr: 21806,
     desc: {
       en: "Calling an abstract staticmethod or classmethod straight off the abstract class raised no error, even though instantiating that same class does.",
@@ -186,6 +186,6 @@ export const contributions: Contribution[] = [
       en: "A V4 message whose contents were written without the expected envelope was read as having no body at all, so the interaction verified successfully whatever the provider produced.",
       es: "Un mensaje V4 cuyo contents se escribía sin el envoltorio esperado se leía como si no tuviera cuerpo, así que la interacción verificaba correctamente sin importar lo que produjera el provider.",
     },
-    state: "open",
+    state: "merged",
   },
 ];
