@@ -26,7 +26,7 @@ export const contributions: Contribution[] = [
   {
     repo: "Next-Flip/Momentum-Firmware",
     emoji: "⚡",
-    stars: 8985,
+    stars: 8987,
     pr: 573,
     desc: {
       en: "The same unbounded EMV lengths as the unleashed fix, except here the stack overflow is not compiled out of the release builds the project ships.",
@@ -37,7 +37,7 @@ export const contributions: Contribution[] = [
   {
     repo: "Next-Flip/Momentum-Firmware",
     emoji: "⚡",
-    stars: 8985,
+    stars: 8987,
     pr: 574,
     desc: {
       en: "The Type 4 Tag write fix, ported to the byte-identical copy of the file this firmware carries.",
@@ -90,9 +90,20 @@ export const contributions: Contribution[] = [
     state: "open",
   },
   {
+    repo: "traefik/yaegi",
+    emoji: "🐹",
+    stars: 8353,
+    pr: 1731,
+    desc: {
+      en: "Every pull request had a red lint job: the pinned linter was built with an older Go than CI installs, so it panicked before reporting anything.",
+      es: "Cada pull request tenía el job de lint en rojo: el linter fijado estaba compilado con un Go anterior al que instala el CI, así que hacía panic antes de reportar nada.",
+    },
+    state: "open",
+  },
+  {
     repo: "tobymao/sqlglot",
     emoji: "🧩",
-    stars: 9496,
+    stars: 9497,
     pr: 7969,
     desc: {
       en: "DuckDB was modelled as returning NULL on division by zero, but it follows IEEE 754 and returns inf, so transpiled queries diverged.",
@@ -136,7 +147,7 @@ export const contributions: Contribution[] = [
   {
     repo: "docker/compose",
     emoji: "🐳",
-    stars: 37977,
+    stars: 37978,
     pr: 13992,
     desc: {
       en: "A single directory the user cannot read made compose watch fail to start, so nothing was watched at all: the ignore list is applied to events, never to the walk that registers the watches.",
