@@ -56,6 +56,19 @@ export const projects: Project[] = [
     category: "web apps",
   },
   {
+    name: "Esku",
+    emoji: "✋",
+    icon: "https://endika.github.io/esku/favicon.svg",
+    desc: {
+      en: "Offline PWA that reads sign language from your phone camera and turns it into text. Fingerspells the Spanish Sign Language alphabet live, shows you the hand it is tracking, and lets you teach it your own signs in any sign language. No frame ever leaves the device.",
+      es: "PWA offline que lee lengua de signos con la cámara del móvil y la convierte en texto. Reconoce el alfabeto dactilológico de la LSE en directo, te dibuja la mano que está siguiendo y puedes enseñarle tus propios signos, en cualquier lengua de signos. Ningún fotograma sale del dispositivo.",
+    },
+    url: "https://endika.github.io/esku/",
+    type: "live",
+    tag: "PWA",
+    category: "web apps",
+  },
+  {
     name: "Tutu",
     emoji: "🚗",
     icon: "https://endika.github.io/tutu/favicon.svg",
