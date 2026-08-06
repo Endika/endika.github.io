@@ -82,6 +82,19 @@ export const projects: Project[] = [
     category: "web apps",
   },
   {
+    name: "Kartela",
+    emoji: "🎬",
+    icon: "https://endika.github.io/kartela/favicon.svg",
+    desc: {
+      en: "Offline poster duel for kids: two movie posters show up, swipe towards the one you keep and it takes on the next challenger. 189 Disney, Pixar and DreamWorks films, and the full history of what beat what at the end.",
+      es: "Duelo de carátulas offline para peques: aparecen dos pósters, desliza hacia el que te quedas y se enfrenta al siguiente. 189 películas de Disney, Pixar y DreamWorks, y al final el histórico de qué ganó a qué.",
+    },
+    url: "https://endika.github.io/kartela/",
+    type: "live",
+    tag: "PWA",
+    category: "web apps",
+  },
+  {
     name: "EventSplit",
     emoji: "🧾",
     icon: "https://endika.github.io/EventSplit/favicon.ico",
