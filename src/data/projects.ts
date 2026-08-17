@@ -332,6 +332,19 @@ export const projects: Project[] = [
     category: "experiments",
   },
   {
+    name: "elevator-sim",
+    emoji: "🛗",
+    icon: "https://endika.github.io/elevator-sim/favicon.svg",
+    desc: {
+      en: "Describe any building and find out which lift dispatch algorithm suits it — and whether the choice even matters. Discrete-event simulation with real lift physics, validated against the classical up-peak calculation.",
+      es: "Describe cualquier edificio y descubre qué algoritmo de ascensor le conviene — y si la elección importa siquiera. Simulación de eventos discretos con física real, validada contra el cálculo clásico de punta de subida.",
+    },
+    url: "https://endika.github.io/elevator-sim/",
+    type: "live",
+    tag: "tool",
+    category: "experiments",
+  },
+  {
     name: "Loud Noise Detector",
     emoji: "🔊",
     desc: {
