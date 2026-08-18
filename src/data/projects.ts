@@ -4,6 +4,19 @@ export const categoryOrder = ["web apps", "flipper zero", "experiments"];
 
 export const projects: Project[] = [
   {
+    name: "Agora",
+    emoji: "🏛️",
+    icon: "https://endika.github.io/agora/favicon.ico",
+    desc: {
+      en: "Proposal board for a small group: one vote each, secret until quorum, threads that get resolved and the cost split between whoever is in. Abstaining counts. No login, offline-first.",
+      es: "Tablón de propuestas para un grupo: un voto por persona, secreto hasta el quórum, hilos que se resuelven y el gasto repartido entre quienes entran a pagar. El voto en blanco cuenta. Sin registro, offline-first.",
+    },
+    url: "https://endika.github.io/agora/",
+    type: "live",
+    tag: "PWA",
+    category: "web apps",
+  },
+  {
     name: "Erregai",
     emoji: "⛽",
     icon: "https://endika.github.io/erregai/favicon.svg",
