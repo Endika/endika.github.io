@@ -147,7 +147,7 @@ export const contributions: Contribution[] = [
   {
     repo: "docker/compose",
     emoji: "🐳",
-    stars: 38047,
+    stars: 38036,
     pr: 13992,
     desc: {
       en: "A single directory the user cannot read made compose watch fail to start, so nothing was watched at all: the ignore list is applied to events, never to the walk that registers the watches.",
@@ -198,5 +198,16 @@ export const contributions: Contribution[] = [
       es: "Un mensaje V4 cuyo contents se escribía sin el envoltorio esperado se leía como si no tuviera cuerpo, así que la interacción verificaba correctamente sin importar lo que produjera el provider.",
     },
     state: "merged",
+  },
+  {
+    repo: "docker/compose",
+    emoji: "🐳",
+    stars: 38036,
+    pr: 14084,
+    desc: {
+      en: "Syncing a directory onto a path the image exposes as a symlink aborted the whole watch batch: the archive carried a header for that directory, and the engine refuses to replace a symlink with one.",
+      es: "Sincronizar un directorio sobre una ruta que la imagen expone como symlink abortaba todo el lote de watch: el archivo llevaba una cabecera para ese directorio, y el motor se niega a reemplazar un symlink por uno.",
+    },
+    state: "open",
   },
 ];
