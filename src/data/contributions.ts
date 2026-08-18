@@ -208,6 +208,6 @@ export const contributions: Contribution[] = [
       en: "Syncing a directory onto a path the image exposes as a symlink aborted the whole watch batch: the archive carried a header for that directory, and the engine refuses to replace a symlink with one.",
       es: "Sincronizar un directorio sobre una ruta que la imagen expone como symlink abortaba todo el lote de watch: el archivo llevaba una cabecera para ese directorio, y el motor se niega a reemplazar un symlink por uno.",
     },
-    state: "open",
+    state: "merged",
   },
 ];
