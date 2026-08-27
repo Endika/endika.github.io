@@ -394,6 +394,18 @@ export const projects: Project[] = [
     category: "experiments",
   },
   {
+    name: "imgtrail",
+    emoji: "🔍",
+    desc: {
+      en: "Bulk reverse image search for your own photos: hand it your Instagram export and it finds where else on the web they turn up — then downloads every hit and checks it by perceptual hash before believing it.",
+      es: "Búsqueda inversa en lote de tus propias fotos: le das tu export de Instagram y encuentra en qué otras webs aparecen — y descarga cada coincidencia para comprobarla por hash perceptual antes de creérsela.",
+    },
+    url: "https://github.com/Endika/imgtrail",
+    type: "repo",
+    tag: "tool",
+    category: "experiments",
+  },
+  {
     name: "eskills",
     emoji: "🧰",
     desc: {
