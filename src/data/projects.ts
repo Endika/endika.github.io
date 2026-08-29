@@ -4,6 +4,19 @@ export const categoryOrder = ["web apps", "flipper zero", "experiments"];
 
 export const projects: Project[] = [
   {
+    name: "Zarata",
+    emoji: "🎚️",
+    icon: "https://endika.github.io/zarata/favicon.svg",
+    desc: {
+      en: "A sound level meter you hold in your hand. Watch the room, drag a red mark onto the dial where it starts to bother you, and it beeps when the noise crosses it. The whole session is drawn as one line, and the screen stays awake while it listens.",
+      es: "Un sonómetro de mano. Mira cuánto ruido hay, arrastra con el dedo una marca roja hasta donde te empieza a molestar, y pita cuando se pasa. La sesión entera se dibuja en una línea, y la pantalla no se apaga mientras escucha.",
+    },
+    url: "https://endika.github.io/zarata/",
+    type: "live",
+    tag: "PWA",
+    category: "web apps",
+  },
+  {
     name: "Agora",
     emoji: "🏛️",
     icon: "https://endika.github.io/agora/favicon.ico",
