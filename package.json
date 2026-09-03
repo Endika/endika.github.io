@@ -25,7 +25,7 @@
     "vitest": "^4.1.11"
   },
   "overrides": {
-    "fast-uri": "^3.1.5",
+    "fast-uri": "^3.1.7",
     "postcss": "^8.5.18",
     "sharp": "^0.35.0",
     "svgo": "^4.0.2"
