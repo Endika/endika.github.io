@@ -1,7 +1,10 @@
 ---
+import { coffee } from "../data/site";
+
 const year = new Date().getFullYear();
 ---
 <footer class="foot">
   <span>© {year} Endika Iglesias</span>
+  <a href={coffee.href} rel="noopener">{coffee.label}</a>
   <span>built with Astro</span>
 </footer>
