@@ -224,4 +224,15 @@ body {
   color: var(--muted);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+}
+.foot a {
+  color: var(--fg);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+  /* padding + negative margin widen the tap target to 24px without moving the row */
+  padding: 6px 4px;
+  margin: -6px -4px;
 }
