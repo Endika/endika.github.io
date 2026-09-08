@@ -1,6 +1,9 @@
 name: Dependabot auto-merge
 
-on: pull_request
+# pull_request_target so the run is handed the Actions secrets: a `pull_request`
+# from Dependabot only ever sees the Dependabot secret store, where the PAT does
+# not exist. Nothing here checks out the pull request's code, so this stays safe.
+on: pull_request_target
 
 permissions:
   contents: write
@@ -11,8 +14,11 @@ jobs:
     runs-on: ubuntu-latest
     if: github.actor == 'dependabot[bot]'
     steps:
+      # The PAT, not GITHUB_TOKEN: a merge authored by GITHUB_TOKEN is a push that
+      # triggers no workflow at all, so the Pages deploy would never run for an
+      # auto-merged bump.
       - name: Enable auto-merge
         run: gh pr merge --auto --rebase "$PR_URL"
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.RELEASE_PLEASE_TOKEN }}
