@@ -232,15 +232,4 @@ export const contributions: Contribution[] = [
     },
     state: "open",
   },
-  {
-    repo: "lark-parser/lark",
-    emoji: "🌳",
-    stars: 5982,
-    pr: 1652,
-    desc: {
-      en: "Reconstructing a grammar glued the optional operator to the name after it, so the grammar that came back was a different one — and one lark itself refuses to load.",
-      es: "Al reconstruir una gramática, el operador opcional se pegaba al nombre siguiente, así que la gramática que volvía era otra distinta — y que el propio lark se niega a cargar.",
-    },
-    state: "open",
-  },
 ];
