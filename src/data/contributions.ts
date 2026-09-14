@@ -232,4 +232,15 @@ export const contributions: Contribution[] = [
     },
     state: "open",
   },
+  {
+    repo: "pygments/pygments",
+    emoji: "🖍️",
+    stars: 2206,
+    pr: 3316,
+    desc: {
+      en: "Any << in text that is not Terraform or Crystal opened a heredoc that never ends, so the lexer emitted the rest of the file a second time: the same defect the Ruby lexer had fixed two months earlier, still in the two other copies of the callback.",
+      es: "Cualquier << en texto que no es Terraform ni Crystal abría un heredoc que nunca termina, así que el lexer emitía el resto del fichero una segunda vez: el mismo defecto que el lexer de Ruby había arreglado dos meses antes, intacto en las otras dos copias del callback.",
+    },
+    state: "open",
+  },
 ];
