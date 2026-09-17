@@ -407,6 +407,18 @@ export const projects: Project[] = [
     category: "experiments",
   },
   {
+    name: "dlen",
+    emoji: "📏",
+    desc: {
+      en: "A tiny Python linter that tells you which functions and classes grew too long, and exactly where. It reads your code with Python's own parser, so a `def` inside a string never fools it. First published in 2017, broken on Python 3 ever since, rewritten from scratch in 2026.",
+      es: "Un linter de Python diminuto que te dice qué funciones y clases se han hecho demasiado largas, y dónde exactamente. Lee tu código con el parser del propio Python, así que un `def` dentro de un string nunca le engaña. Publicado en 2017, roto en Python 3 desde entonces, reescrito de cero en 2026.",
+    },
+    url: "https://github.com/Endika/dlen",
+    type: "repo",
+    tag: "tool",
+    category: "experiments",
+  },
+  {
     name: "imgtrail",
     emoji: "🔍",
     desc: {
