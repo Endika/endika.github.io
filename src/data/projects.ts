@@ -345,6 +345,18 @@ export const projects: Project[] = [
     category: "flipper zero",
   },
   {
+    name: "WiFi Census",
+    emoji: "📡",
+    desc: {
+      en: "Passive Wi-Fi device census over an ESP32 Marauder board: count and type nearby devices, then compare two locations to see which were at both.",
+      es: "Censo pasivo de dispositivos Wi-Fi con una placa ESP32 Marauder: cuenta y clasifica los de alrededor y compara dos sitios para ver cuáles estuvieron en ambos.",
+    },
+    url: "https://github.com/Endika/flipper-wifi-census",
+    type: "repo",
+    tag: "Flipper",
+    category: "flipper zero",
+  },
+  {
     name: "Influence Sensor",
     emoji: "📊",
     icon: "https://endika.github.io/influence-sensor/favicon.svg",
