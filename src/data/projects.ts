@@ -466,4 +466,16 @@ export const projects: Project[] = [
     tag: "tool",
     category: "experiments",
   },
+  {
+    name: "ronspot-sniper",
+    emoji: "🚗",
+    desc: {
+      en: "Watches your Ronspot calendar and books a parking spot on the days you want, the moment somebody releases one. Runs from cron on a Raspberry Pi and alerts over Slack or Discord. The hard part was finding which field actually tells you a spot is free — the obvious one lies.",
+      es: "Vigila el calendario de Ronspot y te reserva plaza los días que elijas, en cuanto alguien libera hueco. Corre desde cron en una Raspberry Pi y avisa por Slack o Discord. Lo difícil fue dar con el campo que de verdad dice si hay sitio: el evidente miente.",
+    },
+    url: "https://github.com/Endika/ronspot-sniper",
+    type: "repo",
+    tag: "tool",
+    category: "experiments",
+  },
 ];
