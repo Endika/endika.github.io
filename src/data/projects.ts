@@ -478,4 +478,16 @@ export const projects: Project[] = [
     tag: "tool",
     category: "experiments",
   },
+  {
+    name: "Specster",
+    emoji: "👻",
+    desc: {
+      en: "GitHub Action that reads a labeled issue and either asks the questions it needs answered or writes a technical spec with a task plan. A second label turns the approved spec into a pull request. Early and still changing.",
+      es: "GitHub Action que lee una issue etiquetada y, o pregunta lo que le falta, o escribe una spec técnica con plan de tareas. Con una segunda etiqueta convierte la spec aprobada en una pull request. Versión temprana, todavía en desarrollo.",
+    },
+    url: "https://github.com/Endika/specster",
+    type: "repo",
+    tag: "tool",
+    category: "experiments",
+  },
 ];
