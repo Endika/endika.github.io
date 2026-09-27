@@ -4,7 +4,7 @@ export const contributions: Contribution[] = [
   {
     repo: "DarkFlippers/unleashed-firmware",
     emoji: "🔓",
-    stars: 22208,
+    stars: 22363,
     pr: 1048,
     desc: {
       en: "The EMV parser took each TLV length straight off the card, so tapping a crafted card wrote past several fixed-size fields and a stack buffer.",
@@ -15,7 +15,7 @@ export const contributions: Contribution[] = [
   {
     repo: "DarkFlippers/unleashed-firmware",
     emoji: "🔓",
-    stars: 22208,
+    stars: 22363,
     pr: 1049,
     desc: {
       en: "A reader writing to the emulated NFC tag at offset 1 shifted the stored payload by a byte and spliced in a stale byte from the previous frame.",
@@ -26,7 +26,7 @@ export const contributions: Contribution[] = [
   {
     repo: "Next-Flip/Momentum-Firmware",
     emoji: "⚡",
-    stars: 9122,
+    stars: 9189,
     pr: 573,
     desc: {
       en: "The same unbounded EMV lengths as the unleashed fix, except here the stack overflow is not compiled out of the release builds the project ships.",
@@ -37,7 +37,7 @@ export const contributions: Contribution[] = [
   {
     repo: "Next-Flip/Momentum-Firmware",
     emoji: "⚡",
-    stars: 9122,
+    stars: 9189,
     pr: 574,
     desc: {
       en: "The Type 4 Tag write fix, ported to the byte-identical copy of the file this firmware carries.",
@@ -48,7 +48,7 @@ export const contributions: Contribution[] = [
   {
     repo: "vitessio/vitess",
     emoji: "🐬",
-    stars: 21315,
+    stars: 21359,
     pr: 20700,
     desc: {
       en: "A sharded query with EXISTS inside a CASE silently dropped half of its WHERE clause and returned the wrong rows.",
@@ -59,7 +59,7 @@ export const contributions: Contribution[] = [
   {
     repo: "vitessio/vitess",
     emoji: "🐬",
-    stars: 21315,
+    stars: 21359,
     pr: 20701,
     desc: {
       en: "An outer join against a reference table returned every preserved row once per shard instead of once.",
@@ -70,7 +70,7 @@ export const contributions: Contribution[] = [
   {
     repo: "traefik/yaegi",
     emoji: "🐹",
-    stars: 8393,
+    stars: 8402,
     pr: 1729,
     desc: {
       en: "A constant condition in an if or for statement crashed the interpreter instead of reporting a compile error, taking down any program embedding it.",
@@ -81,7 +81,7 @@ export const contributions: Contribution[] = [
   {
     repo: "traefik/yaegi",
     emoji: "🐹",
-    stars: 8393,
+    stars: 8402,
     pr: 1730,
     desc: {
       en: "Using a package name as a value crashed the interpreter five different ways, and inside a return statement it raised no error at all and ran.",
@@ -92,7 +92,7 @@ export const contributions: Contribution[] = [
   {
     repo: "traefik/yaegi",
     emoji: "🐹",
-    stars: 8393,
+    stars: 8402,
     pr: 1731,
     desc: {
       en: "Every pull request had a red lint job: the pinned linter was built with an older Go than CI installs, so it panicked before reporting anything.",
@@ -103,7 +103,7 @@ export const contributions: Contribution[] = [
   {
     repo: "tobymao/sqlglot",
     emoji: "🧩",
-    stars: 9603,
+    stars: 9641,
     pr: 7969,
     desc: {
       en: "DuckDB was modelled as returning NULL on division by zero, but it follows IEEE 754 and returns inf, so transpiled queries diverged.",
@@ -114,7 +114,7 @@ export const contributions: Contribution[] = [
   {
     repo: "fonttools/fonttools",
     emoji: "🔠",
-    stars: 5245,
+    stars: 5265,
     pr: 4137,
     desc: {
       en: "Instancing a variable font left the BASE table untouched, so instances kept the default baselines and a dangling variation store.",
@@ -125,7 +125,7 @@ export const contributions: Contribution[] = [
   {
     repo: "MatthewKuKanich/FindMyFlipper",
     emoji: "📍",
-    stars: 2201,
+    stars: 2216,
     pr: 144,
     desc: {
       en: "An infinite 2FA loop blocked report fetching: the anisette device identity was partly overwritten with random UUIDs. Behind seven reported issues.",
@@ -136,7 +136,7 @@ export const contributions: Contribution[] = [
   {
     repo: "chearon/dropflow",
     emoji: "📐",
-    stars: 1367,
+    stars: 1368,
     pr: 34,
     desc: {
       en: "A box with position: absolute stayed in normal flow and ignored its insets entirely, the last piece of CSS 2.1 positioning the engine was missing.",
@@ -147,7 +147,7 @@ export const contributions: Contribution[] = [
   {
     repo: "docker/compose",
     emoji: "🐳",
-    stars: 38136,
+    stars: 38258,
     pr: 13992,
     desc: {
       en: "A single directory the user cannot read made compose watch fail to start, so nothing was watched at all: the ignore list is applied to events, never to the walk that registers the watches.",
@@ -158,7 +158,7 @@ export const contributions: Contribution[] = [
   {
     repo: "python/mypy",
     emoji: "🏷️",
-    stars: 20639,
+    stars: 20651,
     pr: 21805,
     desc: {
       en: "A walrus nested inside a condition, as in if cond and (woo := 5) + n, left the variable optional in the branch where the assignment had certainly run.",
@@ -180,7 +180,7 @@ export const contributions: Contribution[] = [
   {
     repo: "python/mypy",
     emoji: "🏷️",
-    stars: 20639,
+    stars: 20651,
     pr: 21806,
     desc: {
       en: "Calling an abstract staticmethod or classmethod straight off the abstract class raised no error, even though instantiating that same class does.",
@@ -202,7 +202,7 @@ export const contributions: Contribution[] = [
   {
     repo: "docker/compose",
     emoji: "🐳",
-    stars: 38136,
+    stars: 38258,
     pr: 14084,
     desc: {
       en: "Syncing a directory onto a path the image exposes as a symlink aborted the whole watch batch: the archive carried a header for that directory, and the engine refuses to replace a symlink with one.",
@@ -213,7 +213,7 @@ export const contributions: Contribution[] = [
   {
     repo: "pytransitions/transitions",
     emoji: "🔁",
-    stars: 6587,
+    stars: 6594,
     pr: 744,
     desc: {
       en: "Two models on the same async machine shared one state object, so one read the other's nested scope mid-await and resolved a state name that was never registered.",
@@ -224,7 +224,7 @@ export const contributions: Contribution[] = [
   {
     repo: "dolthub/go-mysql-server",
     emoji: "🗃️",
-    stars: 2656,
+    stars: 2658,
     pr: 3861,
     desc: {
       en: "A NOT IN subquery returned rows that three-valued logic excludes as soon as the column had an index, because the lookup and merge plans only compare rows whose keys are equal and never reach the comparison that evaluates to NULL.",
@@ -235,7 +235,7 @@ export const contributions: Contribution[] = [
   {
     repo: "pygments/pygments",
     emoji: "🖍️",
-    stars: 2206,
+    stars: 2211,
     pr: 3316,
     desc: {
       en: "Any << in text that is not Terraform or Crystal opened a heredoc that never ends, so the lexer emitted the rest of the file a second time: the same defect the Ruby lexer had fixed two months earlier, still in the two other copies of the callback.",
