@@ -479,6 +479,30 @@ export const projects: Project[] = [
     category: "experiments",
   },
   {
+    name: "madrid-avisos",
+    emoji: "🧹",
+    desc: {
+      en: "Keeps your street-cleaning avisos on avisos.madrid.es alive: each run comments on the open aviso for every street you list, or files a new one once the last is closed, and reports on Slack. Runs from cron on a Raspberry Pi. The catch was that you can't reiterate your own aviso, so it comments instead.",
+      es: "Mantiene vivos tus avisos de limpieza en avisos.madrid.es: en cada pasada comenta el aviso abierto de cada calle que le das, o abre uno nuevo si el último se cerró, y te lo cuenta por Slack. Corre desde cron en una Raspberry Pi. La pega era que no puedes reiterar tu propio aviso, así que comenta.",
+    },
+    url: "https://github.com/Endika/madrid-avisos",
+    type: "repo",
+    tag: "tool",
+    category: "experiments",
+  },
+  {
+    name: "bsport-booker",
+    emoji: "🏋️",
+    desc: {
+      en: "Books your bsport classes on its own as soon as they open, paying with the pack that covers that day, and pings you on Slack about bookings, full classes and credits running low. Runs from cron on a Raspberry Pi.",
+      es: "Reserva tus clases de bsport en cuanto se abren, pagando con el bono que cubre ese día, y te avisa por Slack de reservas, clases llenas y créditos que se acaban. Corre desde cron en una Raspberry Pi.",
+    },
+    url: "https://github.com/Endika/bsport-booker",
+    type: "repo",
+    tag: "tool",
+    category: "experiments",
+  },
+  {
     name: "Specster",
     emoji: "👻",
     desc: {
