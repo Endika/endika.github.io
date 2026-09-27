@@ -17,10 +17,15 @@ jobs:
       github.event.pull_request.user.login == 'dependabot[bot]'
       && github.event.pull_request.head.repo.full_name == github.repository
     steps:
+      - name: Fetch dependabot metadata
+        id: meta
+        uses: dependabot/fetch-metadata@v3
+      # Only patch and minor bumps merge on their own; a major waits for a human.
       # The PAT, not GITHUB_TOKEN: a merge authored by GITHUB_TOKEN is a push that
       # triggers no workflow at all, so the Pages deploy would never run for an
       # auto-merged bump.
-      - name: Enable auto-merge
+      - name: Enable auto-merge (patch & minor only)
+        if: steps.meta.outputs.update-type == 'version-update:semver-patch' || steps.meta.outputs.update-type == 'version-update:semver-minor'
         run: gh pr merge --auto --rebase "$PR_URL"
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
