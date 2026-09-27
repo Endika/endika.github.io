@@ -361,8 +361,8 @@ export const projects: Project[] = [
     emoji: "📊",
     icon: "https://endika.github.io/influence-sensor/favicon.svg",
     desc: {
-      en: "See how captured your social feed is — analyze your Instagram/TikTok export 100% in-browser.",
-      es: "Descubre cuán capturado está tu feed: analiza tu export de Instagram/TikTok 100% en el navegador.",
+      en: "See how captured your social feed is — analyze your Instagram, YouTube or TikTok export 100% in-browser.",
+      es: "Descubre cuán capturado está tu feed: analiza tu export de Instagram, YouTube o TikTok 100% en el navegador.",
     },
     url: "https://endika.github.io/influence-sensor/",
     type: "live",
