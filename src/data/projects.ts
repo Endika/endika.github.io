@@ -21,8 +21,8 @@ export const projects: Project[] = [
     emoji: "🏛️",
     icon: "https://endika.github.io/agora/favicon.ico",
     desc: {
-      en: "Proposal board for a small group: one vote each, secret until quorum, threads that get resolved and the cost split between whoever is in. Abstaining counts. No login, offline-first.",
-      es: "Tablón de propuestas para un grupo: un voto por persona, secreto hasta el quórum, hilos que se resuelven y el gasto repartido entre quienes entran a pagar. El voto en blanco cuenta. Sin registro, offline-first.",
+      en: "Proposal board for a small group: one vote each, open or secret ballot as each agora chooses, threads that get resolved and the cost split between whoever is in. Abstaining counts. No login, offline-first.",
+      es: "Tablón de propuestas para un grupo: un voto por persona, abierto o secreto según elija cada ágora, hilos que se resuelven y el gasto repartido entre quienes entran a pagar. El voto en blanco cuenta. Sin registro, offline-first.",
     },
     url: "https://endika.github.io/agora/",
     type: "live",
