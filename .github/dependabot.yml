@@ -7,6 +7,11 @@ updates:
     open-pull-requests-limit: 10
     commit-message:
       prefix: chore
+    groups:
+      npm-minor-patch:
+        update-types:
+          - minor
+          - patch
   - package-ecosystem: github-actions
     directory: /
     schedule:
