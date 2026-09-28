@@ -1,6 +1,12 @@
 import type { Project } from "../lib/projects";
 
-export const categoryOrder = ["web apps", "flipper zero", "experiments"];
+export const categoryOrder = [
+  "web apps",
+  "flipper zero",
+  "automations",
+  "dev tools",
+  "experiments",
+];
 
 export const projects: Project[] = [
   {
@@ -392,7 +398,7 @@ export const projects: Project[] = [
     url: "https://github.com/Endika/loud-noise-detector",
     type: "repo",
     tag: "tool",
-    category: "experiments",
+    category: "automations",
   },
   {
     name: "Entzun",
@@ -416,7 +422,7 @@ export const projects: Project[] = [
     url: "https://github.com/Endika/claude-db-memory",
     type: "repo",
     tag: "tool",
-    category: "experiments",
+    category: "dev tools",
   },
   {
     name: "dlen",
@@ -428,7 +434,7 @@ export const projects: Project[] = [
     url: "https://github.com/Endika/dlen",
     type: "repo",
     tag: "tool",
-    category: "experiments",
+    category: "dev tools",
   },
   {
     name: "imgtrail",
@@ -452,7 +458,7 @@ export const projects: Project[] = [
     url: "https://github.com/Endika/eskills",
     type: "repo",
     tag: "tool",
-    category: "experiments",
+    category: "dev tools",
   },
   {
     name: "Genome Report",
@@ -476,7 +482,7 @@ export const projects: Project[] = [
     url: "https://github.com/Endika/ronspot-sniper",
     type: "repo",
     tag: "tool",
-    category: "experiments",
+    category: "automations",
   },
   {
     name: "madrid-avisos",
@@ -488,7 +494,7 @@ export const projects: Project[] = [
     url: "https://github.com/Endika/madrid-avisos",
     type: "repo",
     tag: "tool",
-    category: "experiments",
+    category: "automations",
   },
   {
     name: "bsport-booker",
@@ -500,7 +506,7 @@ export const projects: Project[] = [
     url: "https://github.com/Endika/bsport-booker",
     type: "repo",
     tag: "tool",
-    category: "experiments",
+    category: "automations",
   },
   {
     name: "Specster",
@@ -512,6 +518,6 @@ export const projects: Project[] = [
     url: "https://github.com/Endika/specster",
     type: "repo",
     tag: "tool",
-    category: "experiments",
+    category: "dev tools",
   },
 ];
