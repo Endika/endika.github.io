@@ -225,12 +225,12 @@ export const contributions: Contribution[] = [
     repo: "dolthub/go-mysql-server",
     emoji: "🗃️",
     stars: 2658,
-    pr: 3861,
+    pr: 3960,
     desc: {
       en: "A NOT IN subquery returned rows that three-valued logic excludes as soon as the column had an index, because the lookup and merge plans only compare rows whose keys are equal and never reach the comparison that evaluates to NULL.",
       es: "Una subconsulta NOT IN devolvía filas que la lógica de tres valores excluye en cuanto la columna tenía un índice, porque los planes de lookup y merge solo comparan filas con claves iguales y nunca llegan a la comparación que da NULL.",
     },
-    state: "open",
+    state: "merged",
   },
   {
     repo: "pygments/pygments",
