@@ -230,6 +230,19 @@ export const projects: Project[] = [
     category: "web apps",
   },
   {
+    name: "Alderantziz",
+    emoji: "📼",
+    icon: "https://endika.github.io/alderantziz/favicon.svg",
+    desc: {
+      en: "Pass-the-phone party game that plays your voice backwards: record a secret phrase, imitate it reversed, and reverse the imitation to hear what you really said. Audio never leaves the phone.",
+      es: "Juego de fiesta para pasar el móvil que pone tu voz al revés: graba una frase secreta, imítala al revés y dale la vuelta a la imitación para oír lo que has dicho de verdad. El audio no sale del móvil.",
+    },
+    url: "https://endika.github.io/alderantziz/",
+    type: "live",
+    tag: "PWA",
+    category: "web apps",
+  },
+  {
     name: "Zuhaitz",
     emoji: "🌳",
     icon: "https://endika.github.io/zuhaitz/icon-192.png",
