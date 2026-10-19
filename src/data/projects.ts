@@ -10,6 +10,32 @@ export const categoryOrder = [
 
 export const projects: Project[] = [
   {
+    name: "eslojusto",
+    emoji: "⚖️",
+    icon: "https://eslojusto.es/favicon.svg",
+    desc: {
+      en: "Checks paperwork where you may be paying too much or getting too little — severance, unemployment, rent, mortgage, insurance, bills and more. It reads your documents, explains what doesn't add up with official data, and only offers a paid pass when something is off.",
+      es: "Revisa trámites donde puedes estar pagando de más o cobrando de menos: finiquito, paro, alquiler, hipoteca, seguros, facturas y más. Lee tus documentos, te explica con datos oficiales lo que no cuadra y solo te ofrece el pase de pago si algo falla.",
+    },
+    url: "https://eslojusto.es/",
+    type: "live",
+    tag: "tool",
+    category: "web apps",
+  },
+  {
+    name: "Patitas",
+    emoji: "🐶",
+    icon: "https://endika.github.io/patitas/favicon.svg",
+    desc: {
+      en: "A Nintendogs-style puppy game for your phone, with 3D puppies made entirely from code. Adopt up to two, pet them, throw the ball and teach them tricks. Everything stays on your phone.",
+      es: "Un juego de cachorros al estilo Nintendogs para el móvil, con cachorros en 3D hechos enteramente con código. Adopta hasta dos, acarícialos, tírales la pelota y enséñales trucos. Todo se queda en tu móvil.",
+    },
+    url: "https://endika.github.io/patitas/",
+    type: "live",
+    tag: "PWA",
+    category: "web apps",
+  },
+  {
     name: "Zarata",
     emoji: "🎚️",
     icon: "https://endika.github.io/zarata/favicon.svg",
