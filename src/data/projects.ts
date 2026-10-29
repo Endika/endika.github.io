@@ -23,6 +23,19 @@ export const projects: Project[] = [
     category: "web apps",
   },
   {
+    name: "behin",
+    emoji: "🔒",
+    icon: "https://endika.github.io/behin/favicon.svg",
+    desc: {
+      en: "One-time secret notes for passwords and messages: encrypted in your browser, the key travels in the link and never reaches the server. Read once, then deleted, with an optional password and an expiry from 10 minutes to 7 days. In five languages.",
+      es: "Notas secretas de un solo uso para contraseñas y mensajes: se cifran en tu navegador y la clave viaja en el enlace, sin llegar nunca al servidor. Se leen una vez y se borran, con contraseña opcional y caducidad de 10 minutos a 7 días. En cinco idiomas.",
+    },
+    url: "https://endika.github.io/behin/",
+    type: "live",
+    tag: "tool",
+    category: "web apps",
+  },
+  {
     name: "Patitas",
     emoji: "🐶",
     icon: "https://endika.github.io/patitas/favicon.svg",
