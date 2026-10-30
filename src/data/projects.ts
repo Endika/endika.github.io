@@ -36,6 +36,19 @@ export const projects: Project[] = [
     category: "web apps",
   },
   {
+    name: "txiki",
+    emoji: "🔗",
+    icon: "https://endika.github.io/txiki/favicon.svg",
+    desc: {
+      en: "A link shortener with stats and no accounts: see how many times it's opened, when and from which country, on a map, with bots left out. The stats key stays in your browser. In five languages.",
+      es: "Acortador de enlaces con estadísticas y sin cuentas: ves cuántas veces lo abren, cuándo y desde qué país, en un mapa, sin contar los bots. La llave de las estadísticas se queda en tu navegador. En cinco idiomas.",
+    },
+    url: "https://endika.github.io/txiki/",
+    type: "live",
+    tag: "tool",
+    category: "web apps",
+  },
+  {
     name: "Patitas",
     emoji: "🐶",
     icon: "https://endika.github.io/patitas/favicon.svg",
