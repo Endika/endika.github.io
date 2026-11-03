@@ -4,6 +4,7 @@ import {
   formatStars,
   pullRequestUrl,
   sortContributions,
+  statusLabel,
 } from "../src/lib/contributions";
 
 const c = (repo: string, stars: number, pr: number): Contribution => ({
@@ -49,5 +50,20 @@ describe("sortContributions", () => {
     const input = [c("small/repo", 100, 2), c("big/repo", 900, 1)];
     sortContributions(input);
     expect(input.map((x) => x.repo)).toEqual(["small/repo", "big/repo"]);
+  });
+});
+
+describe("statusLabel", () => {
+  it("shows the pull request number and its state", () => {
+    expect(statusLabel({ ...c("big/repo", 900, 12), state: "merged" })).toEqual({
+      en: "#12 · merged",
+      es: "#12 · merged",
+    });
+  });
+
+  it("names the pull request that landed the fix when it was superseded", () => {
+    expect(
+      statusLabel({ ...c("traefik/yaegi", 8402, 1731), state: "superseded", supersededBy: 1745 }),
+    ).toEqual({ en: "#1731 · fixed in #1745", es: "#1731 · resuelto en #1745" });
   });
 });
