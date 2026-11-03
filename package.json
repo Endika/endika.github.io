@@ -15,10 +15,10 @@
     "format": "biome format --write ."
   },
   "dependencies": {
-    "astro": "^7.4.2"
+    "astro": "^7.4.4"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.6.3",
+    "@biomejs/biome": "^2.6.4",
     "@commitlint/cli": "^21.2.4",
     "@commitlint/config-conventional": "^21.2.3",
     "typescript": "^7.0.2",
