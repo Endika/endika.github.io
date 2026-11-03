@@ -98,7 +98,8 @@ export const contributions: Contribution[] = [
       en: "Every pull request had a red lint job: the pinned linter was built with an older Go than CI installs, so it panicked before reporting anything.",
       es: "Cada pull request tenía el job de lint en rojo: el linter fijado estaba compilado con un Go anterior al que instala el CI, así que hacía panic antes de reportar nada.",
     },
-    state: "open",
+    state: "superseded",
+    supersededBy: 1745,
   },
   {
     repo: "tobymao/sqlglot",
