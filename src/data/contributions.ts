@@ -46,28 +46,6 @@ export const contributions: Contribution[] = [
     state: "open",
   },
   {
-    repo: "vitessio/vitess",
-    emoji: "🐬",
-    stars: 21414,
-    pr: 20700,
-    desc: {
-      en: "A sharded query with EXISTS inside a CASE silently dropped half of its WHERE clause and returned the wrong rows.",
-      es: "Una consulta con EXISTS dentro de un CASE perdía silenciosamente la mitad de su WHERE y devolvía filas incorrectas.",
-    },
-    state: "open",
-  },
-  {
-    repo: "vitessio/vitess",
-    emoji: "🐬",
-    stars: 21414,
-    pr: 20701,
-    desc: {
-      en: "An outer join against a reference table returned every preserved row once per shard instead of once.",
-      es: "Un outer join contra una tabla de referencia devolvía cada fila preservada una vez por shard en lugar de una sola vez.",
-    },
-    state: "open",
-  },
-  {
     repo: "traefik/yaegi",
     emoji: "🐹",
     stars: 8446,
