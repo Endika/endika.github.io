@@ -295,6 +295,19 @@ export const projects: Project[] = [
     category: "web apps",
   },
   {
+    name: "Vacilon",
+    emoji: "🥚",
+    icon: "https://endika.github.io/vacilon/icons/favicon.svg",
+    desc: {
+      en: "Chispa, a little egg robot that chats in Spanish with kids: a tiny language model of its own, jokes, tricks and games, listening through the microphone and answering out loud. Fully offline: no audio or text ever leaves the device.",
+      es: "Chispa, una robot huevito que charla en castellano con peques: un modelo de lenguaje pequeñito propio, chistes, trucos y juegos, te escucha por el micro y responde en voz alta. Todo sin conexión: ni el audio ni el texto salen del dispositivo.",
+    },
+    url: "https://endika.github.io/vacilon/",
+    type: "live",
+    tag: "PWA",
+    category: "web apps",
+  },
+  {
     name: "Zuhaitz",
     emoji: "🌳",
     icon: "https://endika.github.io/zuhaitz/icon-192.png",
